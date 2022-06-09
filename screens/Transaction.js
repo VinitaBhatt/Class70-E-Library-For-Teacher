@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { View, Text, StyleSheet,TouchableOpacity, AsyncStorage} from "react-native";
 import * as Permissions from "expo-permissions";
 import { BarCodeScanner } from "expo-barcode-scanner";
-import ScrollViewNativeComponent from "react-native/Libraries/Components/ScrollView/ScrollViewNativeComponent";
+
 
 
 export default class TransactionScreen extends Component {
